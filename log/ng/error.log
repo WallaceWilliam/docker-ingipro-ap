@@ -1,2 +1,0 @@
-2020/07/29 12:07:30 [emerg] 1#1: host not found in upstream "local" in /etc/nginx/conf.d/app.conf:9
-2020/07/29 12:11:00 [emerg] 1#1: host not found in upstream "local" in /etc/nginx/conf.d/app.conf:9
