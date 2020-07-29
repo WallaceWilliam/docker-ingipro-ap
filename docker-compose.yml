@@ -1,0 +1,23 @@
+#http://geekyplatypus.com/dockerise-your-php-application-with-nginx-and-php7-fpm/
+version: '3.5'
+services:
+
+    local:
+        image: php:7-apache
+        container_name: local
+        command: bash -c "a2enmod rewrite && service apache2 stop && apache2-foreground"
+        volumes:
+            - ./code:/var/www/html
+            - ./log/ap:/var/log/apache2
+
+    web:
+        image: nginx:alpine
+        container_name: web
+        ports:
+            - "8888:80"
+        volumes:
+            - ./log/ng:/var/log/nginx
+            - ./web.conf:/etc/nginx/conf.d/app.conf
+
+        depends_on:
+            - local

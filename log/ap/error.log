@@ -1,0 +1,23 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.128.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Jul 29 12:20:53.561687 2020] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.8 configured -- resuming normal operations
+[Wed Jul 29 12:20:53.561757 2020] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Jul 29 12:21:10.614259 2020] [core:alert] [pid 17] [client 192.168.128.3:60704] /var/www/html/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Wed Jul 29 12:21:37.742970 2020] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.144.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Jul 29 12:23:07.341081 2020] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.8 configured -- resuming normal operations
+[Wed Jul 29 12:23:07.341158 2020] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Jul 29 12:23:25.011188 2020] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.160.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Jul 29 12:23:34.197946 2020] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.8 configured -- resuming normal operations
+[Wed Jul 29 12:23:34.198036 2020] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Jul 29 12:25:14.747475 2020] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.176.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Jul 29 12:25:21.321676 2020] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.8 configured -- resuming normal operations
+[Wed Jul 29 12:25:21.321754 2020] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Jul 29 12:25:31.653237 2020] [core:error] [pid 33] [client 192.168.176.3:33376] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Wed Jul 29 12:25:31.993694 2020] [core:error] [pid 31] [client 192.168.176.3:33378] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace., referer: http://10.100.0.107:8888/f
+[Wed Jul 29 12:26:24.967138 2020] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.192.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Jul 29 12:26:31.377262 2020] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.8 configured -- resuming normal operations
+[Wed Jul 29 12:26:31.377342 2020] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Jul 29 12:26:50.542154 2020] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
